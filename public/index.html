@@ -1,0 +1,67 @@
+<html>
+
+<head>
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/required.css">
+
+	<script>
+		$(function () {
+			$("#tabs").tabs();
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">OpenFin Version:
+				<span id="OpenFinVersion">OpenFin Not Loaded!</span>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2" id="doc-link">OpenFin Not Loaded!</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<button id="actionButton1">Notification 1</button>
+				<button id="actionButton2">Notification 2</button>
+				<button id="actionButton3">Notification 3</button>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<p>This application should launch the OpenFinCenter. Use the buttons above to send notifications. Minimize the OpenFinCenter
+					via tray icon to see small notifications. If OpenFinCener is open, the notifications will appear in the application.</p>
+				<p>Notification Icon is pulled the from sending applications manifest, the app name is the UUID. Title and Text can be sent
+					with invoking the notification.</p>
+				<p>To invoke notifications use 'new fin.desktop.Notification.Notification2("Notification Title", "Notification Text"); '' Preload script required.  See /preload/fin.js.Notification.Notification2.js</p>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+	<!--  JS -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

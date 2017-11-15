@@ -1,0 +1,27 @@
+{
+    "startup_app": {
+        "name": "OpenFin Sales POC",
+        "description": "OpenFin Sales POC",
+        "url": "http://localhost:9001/index.html",
+        "defaultWidth": 300,
+        "defaultHeight": 500,
+        "defaultTop": 100,
+        "defaultLeft": 100,
+        "autoShow": true,
+        "frame": true,
+        "icon": "http://localhost:9001/config/openfino.ico",
+        "uuid": "OpenFinSalesPOC",
+        "preload": "http://localhost:9001/preload/fin.desktop.Notification2.js"
+    },
+    "runtime": {
+        "arguments": "--v=1",
+        "version": "stable"
+    },
+    "splashScreenImage": "http://localhost:9001/config/openfinCenterSplash.png",
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "",
+        "icon": "http://localhost:9001/config/openfino.ico",
+        "name": "OpenFinSalesPOC"
+    }
+}

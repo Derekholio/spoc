@@ -1,0 +1,35 @@
+{
+    "startup_app": {
+        "name": "OpenFinCenter",
+        "description": "OpenFin Center",
+        "url": "http://localhost:9001/OpenFinCenter.html",
+        "defaultWidth": 300,
+        "defaultHeight": 200,
+        "defaultTop": 0,
+        "defaultLeft": 100,
+        "autoShow": true,
+        "alwaysOnTop": true,
+        "frame": false,
+        "icon": "http://localhost:9001/config/openfino.ico",
+        "uuid": "OpenFinCenter_Main",
+        "showTaskbarIcon": false,
+        "alphaMask": {
+            "red": 200,
+            "green": 200,
+            "blue": 200
+        },
+        "saveWindowState": false,
+        "resizable":false
+    },
+    "runtime": {
+        "arguments": "--v=1",
+        "version": "stable"
+    },
+    "splashScreenImage": "",
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "",
+        "icon": "http://localhost:9001/config/openfino.ico",
+        "name": "OpenFinCenter"
+    }
+}
